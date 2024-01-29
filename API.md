@@ -4,12 +4,12 @@
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### Hello <a name="Hello" id="cdk-construct-library-template.Hello"></a>
+### Hello <a name="Hello" id="@jttc/aws-nat-instance.Hello"></a>
 
-#### Initializers <a name="Initializers" id="cdk-construct-library-template.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="@jttc/aws-nat-instance.Hello.Initializer"></a>
 
 ```typescript
-import { Hello } from 'cdk-construct-library-template'
+import { Hello } from '@jttc/aws-nat-instance'
 
 new Hello()
 ```
@@ -23,11 +23,11 @@ new Hello()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#cdk-construct-library-template.Hello.sayHello">sayHello</a></code> | *No description.* |
+| <code><a href="#@jttc/aws-nat-instance.Hello.sayHello">sayHello</a></code> | *No description.* |
 
 ---
 
-##### `sayHello` <a name="sayHello" id="cdk-construct-library-template.Hello.sayHello"></a>
+##### `sayHello` <a name="sayHello" id="@jttc/aws-nat-instance.Hello.sayHello"></a>
 
 ```typescript
 public sayHello(): string

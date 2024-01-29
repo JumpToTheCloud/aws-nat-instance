@@ -27,9 +27,9 @@ module.exports = {
   scopes: [{ name: 'projen' }, { name: 'docs' }],
 
   usePreparedCommit: true, // to re-use commit from ./.git/COMMIT_EDITMSG
-  allowTicketNumber: false,
-  isTicketNumberRequired: false,
-  ticketNumberPrefix: 'TICKET-',
+  allowTicketNumber: true,
+  isTicketNumberRequired: true,
+  ticketNumberPrefix: 'ANICL-',
   ticketNumberRegExp: '\\d{1,5}',
 
   // it needs to match the value for field type. Eg.: 'fix'

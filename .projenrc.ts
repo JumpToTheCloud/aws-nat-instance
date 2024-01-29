@@ -7,11 +7,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.120.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.3.0',
-  name: 'cdk-construct-library-template',
+  name: '@jttc/aws-nat-instance',
   projenrcTs: true,
-  repositoryUrl:
-    'git@github.com:JumpToTheCloud/cdk-construct-library-template.git',
-  keywords: ['aws', 'cdk'],
+  repositoryUrl: 'git@github.com:JumpToTheCloud/aws-nat-instance.git',
+  keywords: ['aws', 'cdk', 'nat', 'nat instance', 'nat gateway'],
   prettier: true,
   prettierOptions: {
     settings: {
@@ -33,7 +32,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   devDeps: ['commitizen', 'cz-customizable'],
-  // packageName: undefined,  /* The "name" in package.json. */
+  packageName: '@jttc/aws-nat-instance',
 });
 
 project.addScripts({

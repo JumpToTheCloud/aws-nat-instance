@@ -1,8 +1,8 @@
 {
-  "name": "cdk-construct-library-template",
+  "name": "@jttc/aws-nat-instance",
   "repository": {
     "type": "git",
-    "url": "git@github.com:JumpToTheCloud/cdk-construct-library-template.git"
+    "url": "git@github.com:JumpToTheCloud/aws-nat-instance.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -64,7 +64,10 @@
   },
   "keywords": [
     "aws",
-    "cdk"
+    "cdk",
+    "nat",
+    "nat gateway",
+    "nat instance"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
